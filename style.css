@@ -46,15 +46,26 @@ body{
     font-weight: 700;
     cursor: default;
 }
+.n-highlight {
+    background-color: #fff;
+    color: #000;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    font-weight: 700;
+}
 .navbar a{
     font-size: 1.5rem;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 700;
+    position: relative;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
 .navbar a:hover,
- .navbar a.active {
-    color: var(--text-color);
+.navbar a.active {
+    color: var(--main-color);
 }
 #menu-icon{
     font-size: 3.6rem;
@@ -64,17 +75,23 @@ body{
 
 .home{
     display: flex;
-    justify-content: center;
+    /* justify-content: left; */
+    justify-content: space-between;
     align-items: center;
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 .home-content h3{
-    font-size: 3.2rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 500;
 }
+.home-content h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
 .home-content h3:nth-of-type(2){
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 span{
     color: var(--main-color);
@@ -86,7 +103,16 @@ span{
 }
 .home-img img{
     width: 25vw;
+    height: 65vh;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-left-radius: 10% 10%;
+    border-bottom-right-radius: 10% 10%;
     animation: floatImage 4s ease-in-out infinite;
+}
+.home-img img:hover{
+    animation: none;
+    box-shadow: #b3b8c6 0 0 3rem;
 }
 
 @keyframes floatImage {
@@ -101,7 +127,7 @@ span{
     }
 }
 .home-content p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .social-media a{
     display: inline-block;
@@ -133,6 +159,7 @@ span{
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    margin:auto 2rem;
 }
 .btn:hover{
     box-shadow: none;
@@ -148,21 +175,42 @@ span{
 }
 .about-img img{
     width: 35vw;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-left-radius: 10% 10%;
+    border-bottom-right-radius: 10% 10%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+.about-img img:hover{
+    animation: none;
+    box-shadow: #5982f4 0 0 3rem;
 }
 .heading{
     text-align: center;
     font-size: 4.5rem;
+    margin: 6rem;
+}
+.about-content h1{
+    text-align: left;
+    font-size: 4.3rem;
+    line-height: 2.6rem;
+    margin:auto 2rem;
 }
 .about-content h2{
     text-align: left;
-    line-height: 1.2;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    margin:auto 2rem;
 }
 .about-content h3{
-    font-size: 2.6rem;
+    font-size: 1.8rem;
+    margin:auto 2rem;
 }
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem;
+    align-content: baseline;
+    
 }
 .services{
     min-height: 100vh;

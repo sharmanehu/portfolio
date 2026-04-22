@@ -38,7 +38,7 @@ window.onscroll = () => {
 
 /*-------------------scroll reveal----------------*/
 ScrollReveal({
-    distance: '80px',
+    distance: '30px',
     duration: 2000,
     delay: 200,
 });
@@ -50,7 +50,7 @@ ScrollReveal().reveal('.home-contact p, .about-content',{origin: 'right'});
 
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Digital Marketing Executive','Video Editor','Graphic Designer','Business & Content Executive','UI/UX Designer'],
+    strings: ['Graphic Designer','UI/UX Designer','SEO Specialist','Digital Marketing Executive','Video Editor','Business & Content Executive',],
     typedSpeed: 70,
     backSpeed: 70,
     backDelay: 1000,
