@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAEC
-        nVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Home Page</title>
         <link rel="stylesheet" href="./style.css">
     </head>
@@ -25,39 +24,123 @@
         <!--home section-->
         <section class="home" id="home">
             <div class="home-content">
-                <h3>WELCOME TO MY PORTFOLIO</h3>
+                <h3>WELCOME TO MY <span>PORTFOLIO</span></h3>
                 <h1>Hi I'm Neha Sharma</h1>
-                <h2>And I'm a <span class="multiple-text"></span></h2>
+                <h2>And I'm a <span class="multiple-text"></span></h2><br>
                 <p>I'm a versatile IT professional and BCA student. I deliver comprehensive <br>solutions that bridge technical excellence
-                    and creative vision.</p>
-                <div class="social-media">
-                    <a href="https://www.facebook.com/profile.php?id=100012153998304"><img src="./images/fb.jpeg" alt="Icon" width="24" height="24"></a>
-                    <a href="https://www.instagram.com/bulbul_1413/"><img src="./images/insta.jpeg" alt="Icon" width="24" height="24"></a>
-                    <a href="https://www.linkedin.com/in/neha-sharma-356317233/"><img src="./images/linkedin.jpg" alt="Icon" width="24" height="24"></i></a>
-                    <a href="https://github.com/sharmanehu"><img src="./images/git.jpeg" alt="Icon" width="24" height="24"></a>
-                    <a href="https://x.com/NehaSha99829157"><img src="./images/x.jpeg" alt="Icon" width="24" height="24"></i></a>
-                </div>
+                    and creative vision.</p><br><br>
+                <div class="social-links">
+                    <a href="https://github.com/sharmanehu" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/nehasharma" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com/nehasharma" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/nehasharma" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/neha-sharma-356317233/" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div> <br><br>
                 <a href="file:///E:/Neha%20Sharma%20CV.pdf" class="btn">Download CV</a>
             </div>
             <div class="home-img"><img src="./images/home-img.png" alt=""></div>
         </section>
 
         <!--about section-->
-        <section class="about" id="about">
-            <div class="about-img"><img src="./images/about-img.png" alt=""></div>
-            <div class="about-content">
-                <h1 class="heading">About<span> Me</span></h1><br><br>
-                <h2>IT professional</h2><br><br>
-                <h3>I'm a versatile IT professional passionate about delivering comprehensive solutions.
-                     With expertise in data analysis, project management, front-end development, and UI/UX design, 
-                     I bridge the gap between technical excellence and creative vision.</h3><br><br><br><br>    
-                <p>As a versatile professional and BCA student, I bring expertise in digital marketing, graphic designing, 
-                    video editing, social media management, and SEO to every project. 
-                    My experience in creating engaging posts, banners, logos, and promotional videos, 
-                    as well as managing Google and Facebook ad campaigns, ensures that projects are 
-                    delivered effectively and meet both business and creative goals. By combining design, content, and marketing insights, 
-                    I deliver coherent and impactful solutions that connect brands with their audience across digital platforms.</p>
-                <a href="#" class="btn">Read More</a>
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-intro">
+                    <div class="about-copy">
+                        <h1 class="about-title"><span>About</span> Me</h1>
+                        <p class="about-subtitle">I’m a designer and IT enthusiast dedicated to creating modern, 
+                            user-focused digital experiences. I combine creativity and technology to craft engaging
+                             solutions that connect ideas with people, focusing on designs that are both functional and visually compelling.</p>
+                    </div>
+                    <!-- <div class="about-image-box">
+                        <img src="./images/about-img.png" alt="Neha Sharma illustration">
+                    </div> -->
+                </div>
+
+                <div class="sidebyside-wrapper">
+                    <div class="column education-column">
+                        <div class="column-header">
+                            <h2 class="column-title">🎓 Education</h2>
+                            <span class="dot-indicator"></span>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card-item">
+                                <div class="timeline-card">
+                                    <div class="card-header education-header">
+                                        <h3 class="card-title">Bachelor of Computer Applications</h3>
+                                        <span class="card-badge education-badge">BCA</span>
+                                    </div>
+                                    <div class="card-meta">
+                                        <p class="meta-item"><span class="meta-label">📍</span> Tribhuvan University</p>
+                                        <p class="meta-item"><span class="meta-label">📅</span> 2021–2024</p>
+                                    </div>
+                                    <p class="card-details">Focused on software development, data analytics, and UX design with practical projects in web apps and digital marketing.</p>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="timeline-card">
+                                    <div class="card-header education-header">
+                                        <h3 class="card-title">Digital Marketing Certificate</h3>
+                                        <span class="card-badge education-badge">Online Course</span>
+                                    </div>
+                                    <div class="card-meta">
+                                        <p class="meta-item"><span class="meta-label">📍</span> Remote Learning</p>
+                                        <p class="meta-item"><span class="meta-label">📅</span> 2023</p>
+                                    </div>
+                                    <p class="card-details">Completed certification in SEO, social media strategy, and campaign analytics to support business growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column experience-column">
+                        <div class="column-header">
+                            <h2 class="column-title">💼 Experience</h2>
+                            <span class="dot-indicator"></span>
+                        </div>
+                        <div class="cards-container">
+                            <div class="card-item">
+                                <div class="timeline-card">
+                                    <div class="card-header experience-header">
+                                        <h3 class="card-title">Freelance Graphic Designer</h3>
+                                        <span class="card-badge">Creative Projects</span>
+                                    </div>
+                                    <div class="card-meta">
+                                        <p class="meta-item"><span class="meta-label">📍</span> Remote</p>
+                                        <p class="meta-item"><span class="meta-label">⏱️</span> 2022–Present</p>
+                                        <p class="meta-item"><span class="meta-label">⏳</span> 4 yrs</p>
+                                    </div>
+                                    <p class="card-description">Designed branding, social media visuals, banners, and promotional graphics for local businesses and online campaigns.</p>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">Photoshop</span>
+                                        <span class="tech-tag">Illustrator</span>
+                                        <span class="tech-tag">Canva</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item">
+                                <div class="timeline-card">
+                                    <div class="card-header experience-header">
+                                        <h3 class="card-title">SEO & Marketing Specialist</h3>
+                                        <span class="card-badge">Digital Campaigns</span>
+                                    </div>
+                                    <div class="card-meta">
+                                        <p class="meta-item"><span class="meta-label">📍</span> Remote</p>
+                                        <p class="meta-item"><span class="meta-label">⏱️</span> 2023–Present</p>
+                                        <p class="meta-item"><span class="meta-label">⏳</span> 3 yrs</p>
+                                    </div>
+                                    <p class="card-description">Managed Google and Facebook ad campaigns, SEO improvements, and content strategy to boost engagement.</p>
+                                    <div class="achievements">
+                                        <p class="achievements-title">Key Achievements</p>
+                                        <ul class="achievements-list">
+                                            <li>Increased reach across social channels by 35%.</li>
+                                            <li>Delivered high-conversion ad campaigns for local brands.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -66,22 +149,34 @@
             <h2 class="heading">My <span>Services</span></h2>
             <div class="services-container">
                 <div class="services-box">
-                    <i class="fa-solid fa-code"></i>
-                    <h3>frontend developer</h3>
-                    <p>Python based frontend in Django</p>
-                    <a href="#" class="btn">Read More</a>
+                    <h3><i class="fas fa-code"></i> Graphic Designer</h3>
+                    <p>Creative designs that build strong identity</p>
+                    <ul class="services-list">
+                        <li><i class="fas fa-check"></i> Logo & Branding</li>
+                        <li><i class="fas fa-check"></i> Social Media Design</li>
+                        <li><i class="fas fa-check"></i> Print & Digital</li>
+                    </ul>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
                 <div class="services-box">
-                    <i class="fa-solid fa-palette"></i>
-                    <h3>Data Analyst</h3>
-                    <p>In Excel, SQL, Power BI, Tableau</p>
-                    <a href="#" class="btn">Read More</a>
+                    <h3><i class="fa-solid fa-palette"></i> UI/UX Designer</h3>
+                    <p>Designing intuitive and user-friendly<br> digital experiences.</p>
+                    <a href="#" class="btn">Learn More</a>
                 </div>
                 <div class="services-box">
-                    <i class="fa-solid fa-android"></i>
-                    <h3>UI/UX Designer</h3>
-                    <p>UI/UX designes from figma for websites.</p>
-                    <a href="" class="btn">Read More</a>
+                    <h3><i class="fa-solid fa-search"></i> SEO Specialist</h3>
+                    <p>Improving website visibility and<br> organic growth.</p>
+                    <a href="" class="btn">Learn More</a>
+                </div>
+                <div class="services-box">
+                    <h3><i class="fa-solid fa-video"></i> Video Editor</h3>
+                    <p>Editing engaging videos that<br> capture attention.</p>
+                    <a href="" class="btn">Learn More</a>
+                </div>
+                <div class="services-box">
+                    <h3><i class="fa-solid fa-bullhorn"></i> Digital Marketing</h3>
+                    <p>Growing brands through strategic<br> online marketing.</p>
+                    <a href="" class="btn">Learn More</a>
                 </div>
             </div>
         </section>
@@ -145,21 +240,83 @@
             </div>
         </section>
         <!--contact section-->
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact<span>Me</span></h2>
-            <form action="https://formsubmit.co/sharmaneha2073@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="https://sharmaneha.com.np/thankyou.html">
-                <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address"> 
+        <section class="contact-section" id="contact">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>Let's Connect</h2>
                 </div>
-                <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject">
+
+                <div class="contact-grid">
+                    <div class="contact-left">
+                        <div class="contact-card contact-info-card">
+                            <h3>Location</h3>
+                            <p>India</p>
+                            <a href="mailto:contact@nehasharma.com"><i class="fa-solid fa-envelope"></i> contact@nehasharma.com</a>
+                            <a href="tel:+911234567890"><i class="fa-solid fa-phone"></i> +91 1234567890</a>
+                        </div>
+
+                        <div class="contact-card contact-form-card">
+                            <h3>Send Me a Message</h3>
+                            <form action="https://formsubmit.co/sharmaneha2073@gmail.com" method="POST">
+                                <input type="hidden" name="_next" value="https://sharmaneha.com.np/thankyou.html">
+                                <div class="input-group">
+                                    <input type="text" name="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-gradient">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="contact-right">
+                        <div class="contact-card profile-card">
+                            <h3>Neha Sharma</h3>
+                            <p class="profile-role">Full Stack Developer & UI/UX Designer</p>
+                            <p class="profile-text">I'm a passionate Full Stack Developer and UI/UX Designer based in India. I specialize in creating exceptional digital experiences with modern web technologies.</p>
+                            <div class="social-links">
+                                <a href="https://github.com/sharmanehu" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://linkedin.com/in/nehasharma" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://facebook.com/nehasharma" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://instagram.com/nehasharma" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card quick-links-card">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#services">Skills & Technologies</a></li>
+                                <li><a href="#contact">Hire</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#contact">Contact Me</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="contact-card services-card">
+                            <h4>Services</h4>
+                            <ul>
+                                <li>Full Stack Development</li>
+                                <li>UI/UX Design</li>
+                                <li>React & Next.js Apps</li>
+                                <li>Mobile App Development</li>
+                                <li>E-commerce Solutions</li>
+                                <li>Performance Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <textarea name="" id="" cols="30" rows="18" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send message" class="btn">
-            </form>
+
+                <div class="contact-cta-card">
+                    <h3>Let’s Build</h3>
+                    <p>Have a project idea or startup? Let's collaborate and turn it into something powerful and scalable.</p>
+                    <a href="#contact" class="btn btn-gradient btn-wide">Start a Project</a>
+                </div>
+            </div>
         </section>
         <!--footer design-->
         <footer class="footer">
