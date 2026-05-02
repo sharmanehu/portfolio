@@ -1187,16 +1187,21 @@ span{
     font-size: 1.6rem;
 }
 .footer-iconTop{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: .8rem 1rem;
-    background: var(--main-color);
-    border-radius: .8rem;
-    transition: .5s ease;
+    background: transparent;
 }
-.footer-iconTop a:hover{
-    box-shadow: 0 0 1rem var(--main-color);
+.footer-iconTop a {
+    color: #ffffff; /* high contrast on blue */
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: var(--snd-bf-color); /* icon only */
+}
+.footer-iconTop a:hover {
+    color: #aab9d8; /* dark on hover */
 }
 .footer-iconTop a i{
     font-size: 2.4rem;
