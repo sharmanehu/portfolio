@@ -105,7 +105,8 @@ span{
 }
 .home-img img{
     width: 25vw;
-    height: 65vh;
+    max-width: 100%;
+    height: auto;
     border-top-left-radius: 10% 10%;
     border-top-right-radius: 10% 10%;
     border-bottom-left-radius: 10% 10%;
